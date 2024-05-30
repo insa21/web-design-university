@@ -24,16 +24,18 @@
       <img src="images/logo.svg" alt="logo">
       <div class="navigation">
         <ul>
+          <i id="menu-close" class="fas fa-times"></i><!-- Tombol Close -->
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Course</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <img id="menu-btn" src="images/menu.png">
+        <img id="menu-btn" src="images/menu.png" alt="Menu Button">
       </div>
     </nav>
   </header>
+
 
   <main>
     <!-- Home -->
@@ -319,6 +321,19 @@
       </div>
     </footer>
   </main>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function () {
+      var nav = document.querySelector('nav .navigation ul');
+      nav.classList.toggle('active');
+    });
+
+    document.getElementById('menu-close').addEventListener('click', function () {
+      var nav = document.querySelector('nav .navigation ul');
+      nav.classList.remove('active');
+    });
+
+  </script>
 </body>
 
 </html>
