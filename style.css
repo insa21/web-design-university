@@ -635,6 +635,294 @@ footer .copyright .pro-links i:hover {
   line-height: 45px;
 }
 
+/* Course Inner */
+#course-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+
+#course-inner {
+  width: 70%;
+}
+
+#course-inner .overview .course-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+#course-inner .overview .course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name {
+  width: 70%;
+
+}
+
+#course-inner .overview .course-head .c-name h2 {
+  color: #29303B;
+}
+
+#course-inner .overview .course-head .c-name .start {
+  margin: 6px 0;
+}
+
+#course-inner .overview .course-head .c-name .start i {
+  color: #FDC93B;
+  font-size: 0.9rem;
+}
+
+#course-inner .overview .course-head .c-name p {
+  font-size: 15px;
+}
+
+#course-inner .overview .course-head span {
+  padding: 16px 22px;
+  color: #5838fc;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgba(88, 56, 252, 0.1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#course-inner .learn p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+#course-inner .learn p i {
+  color: #564ce4;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#course-inner .tutor {
+  display: flex;
+}
+
+#course-inner .tutor img{
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+/* Course Inner */
+#course-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#course-inner h3 {
+  padding: 35px 0 25px 0;
+  color: #29303B;
+}
+
+#course-inner p {
+  color: #64626e;
+  text-align: justify;
+}
+
+#course-inner hr {
+  height: 1px;
+  background: rgba(236, 226, 229, 0.5);
+  margin-top: 40px;
+}
+
+/* Overview Section */
+#course-inner .overview {
+  width: calc(70% - 20px); /* Adjusted to allow space for the enroll section */
+}
+
+#course-inner .overview .course-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+#course-inner .overview .course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head .c-name {
+  width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2 {
+  color: #29303B;
+}
+
+#course-inner .overview .course-head .star {
+  margin: 6px 0;
+}
+
+#course-inner .overview .course-head .star i {
+  color: #FDC93B;
+  font-size: 0.9rem;
+}
+
+#course-inner .overview .course-head .c-name p {
+  font-size: 15px;
+}
+
+#course-inner .overview .course-head span {
+  padding: 16px 22px;
+  color: #5838fc;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgba(88, 56, 252, 0.1);
+  border-radius: 5px;
+}
+
+/* Learn Section */
+#course-inner .learn p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+#course-inner .learn p i {
+  color: #564ce4;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+/* Tutor Section */
+#course-inner .tutor {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#course-inner .tutor img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#course-inner .tutor-det h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+#course-inner .tutor-det p {
+  margin: 0;
+  color: #64626e;
+}
+
+/* Enroll Section */
+#course-inner .enroll {
+  width: 300px;
+  padding: 0 30px 30px 30px;
+  box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+  border-radius: 11px;
+  margin-left: 20px; /* Add some space between the overview and enroll sections */
+}
+
+#course-inner .enroll h3 {
+  padding-bottom: 10px;
+}
+
+#course-inner .enroll p {
+  font-size: 15px;
+  color: #64626e;
+  margin: 15px 0;
+}
+
+#course-inner .enroll p i {
+  color: #564ce4;
+  margin-right: 18px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  /* font-weight: 500; */
+}
+
+#course-inner .enroll .enroll-btn {
+  padding: 25px 0 20px 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* Enroll Button */
+#course-inner .enroll-btn a {
+  text-decoration: none;
+  font-size: .8rem;
+  padding: 13px 45px;
+  font-weight: 600;
+  color: #fff;
+  background: rgb(50, 50, 136);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Contact */
+#contact {
+  padding: 8vw;
+}
+
+#contact .getin {
+  width: 350px;
+}
+
+#contact .getin h2 {
+  color: #2c234d;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: .8;
+  margin-bottom: 16px;
+}
+
+#contact .getin p {
+  color: #686875;
+  line-height: 24px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e4ed;
+}
+
+#contact .getin h3 {
+  color: #2c234d;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+/* Besok lanjuttt... */
+
+
 
 @media (max-width: 769px) {
   nav {
@@ -742,6 +1030,29 @@ footer .copyright .pro-links i:hover {
     padding: 8vw 4vw;
   }
 
+  /* Course inner */
+  #course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+  }
+
+  #course-inner .overview {
+    width: 100%;
+  }
+
+  #course-inner .overview .course-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #course-inner .enroll {
+    margin-top: 25px;
+    margin: 0 auto;
+  }
+
   @media (max-width: 475px) {
     #registration {
       display: flex;
@@ -819,5 +1130,22 @@ footer .copyright .pro-links i:hover {
       margin-bottom: 20px;
     }
     
+  }
+
+  #course-inner .overview .course-head .c-name{
+    width: 50%;
+  }
+
+  #course-inner .overview .course-head .c-name h2{
+    font-size: 22px;
+  }
+
+  #course-inner .overview .course-head span{
+    font-size: 22px;
+  }
+
+  #course-inner .enroll {
+    width: 100%;
+    margin: 0 auto;
   }
 }
